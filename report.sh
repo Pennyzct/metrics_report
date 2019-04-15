@@ -9,7 +9,6 @@ do
         fi
 done
 
-echo "./grabdata.sh -t"
 ./grabdata.sh -t
 mkdir ../results/run2
 mv ../results/*.json ../results/run2/
